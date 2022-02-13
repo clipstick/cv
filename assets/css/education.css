@@ -436,7 +436,13 @@ header p {
   display: block;
   clear: both;
 }
-
+.educontent {
+  padding-top: 34px;
+  padding-bottom: 10px;
+}
+.card {
+  border: none !important;
+}
 /* This will give the cards to their respective sides */
 .timeline-content {
   position: relative;
@@ -449,8 +455,8 @@ header p {
   display: flex;
   flex-direction: row;
   align-items: center;
-   background-image: linear-gradient(147deg, #545b62a8, black);
-  color: white;
+  background: #ffffff;
+  color: #013a63;
 }
 
 .timeline-content::after {
@@ -539,7 +545,7 @@ blockquote {
 }
 
 .date {
-  background: #FF4081;
+  background: #3f51b5;
   display: inline-block;
   color: #FFFFFF;
   padding: 10px;

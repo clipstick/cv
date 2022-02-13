@@ -19,8 +19,8 @@ let header = $(`
   <ul class="navbar-nav ml-auto" id = "navbar-content">
    <li class="nav-item nav-item-hover"><a class="nav-link" href="index.html">Home</a></li>
    <li class="nav-item nav-item-hover"><a class="nav-link" href="experience.html">Experience</a></li>
-   <li class="nav-item nav-item-hover"><a class="nav-link" href="projects.html">Projects</a></li>
    <li class="nav-item nav-item-hover"><a class="nav-link" href="education.html">Education</a></li>
+   <li class="nav-item nav-item-hover"><a class="nav-link" href="projects.html">Projects</a></li>
    <li class="nav-item">
    <input type="checkbox" id="dark_toggler" class="dark_toggler" aria-label="Toggle Light Mode" onclick="toggle_light_mode()" checked>
    </li>
@@ -130,13 +130,14 @@ let footer = $(`
              <div class="form-header">
                 <h6 class="display">Get in Touch</h6>
               </div>
-                <form>
+                
                   <form action="https://formcarry.com/s/L4j_V6655S7" method="POST" accept-charset="UTF-8" >
                   <input type="text" name="Name" placeholder="Your Name" required/>
                   <input type="email" name="Email" placeholder="Email Address"  required/>
                   <textarea name="test" placeholder="Type your Message" required></textarea>
+                  <input type="hidden" name="_gotcha">
                   <input type="submit" value="Send" />
-                </form>
+                  </form>
              </div>
           </div>
         </div>

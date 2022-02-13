@@ -5,67 +5,56 @@ AOS.init();
 const moocs = document.querySelector(".moocs");
 const moocscards = [
   {
-    title: "Data Science",
-    cardImage: "assets/images/education-page/coursera2.svg",
-    moocLink: "https://www.coursera.org/browse/data-science",
+    title: "Ultimate AWS Certified Cloud Practitioner",
+    cardImage: "assets/images/education-page/cloudpract.jpg",
+    moocLink: "https://www.udemy.com/share/103aFP3@4ICMySP3PF5E0zUGUpBM2AqIaQziJV9R8Sxr0Pfa8Bx89xf8U7HoahcDDIWSkUS-/",
   },
   {
-    title: "Cryptography",
-    cardImage: "assets/images/education-page/udemy.svg",
-    moocLink: "https://www.udemy.com/course/cryptography-for-beginners/",
+    title: "Ultimate AWS Certified Solutions Architect Associate",
+    cardImage: "assets/images/education-page/SolArch.jpg",
+    moocLink: "https://www.udemy.com/share/102CZ73@PpU1b7sSfNtSHyF27NaGk5jVDo5dSnsFL1nwrHQfQUtg7zzToCIhAQNjCRtgbR4e/",
   },
   {
-    title: "Machine Learning",
-    cardImage: "assets/images/education-page/coursera2.svg",
-    moocLink: "https://www.coursera.org/learn/machine-learning",
+    title: "Docker Mastery: with Kubernetes +Swarm from a Docker Captain",
+    cardImage: "assets/images/education-page/docker.jpg",
+    moocLink: "https://www.udemy.com/share/101WlG3@iOmubBC10A0zEwRcfNyxd7g-YtgWSngvJOQoMt78CYzPFU17AHZ6jDo_rqTIumcE/",
   },
   {
-    title: "Introduction to HTML 5",
-    cardImage: "assets/images/education-page/udacity.svg",
-    moocLink: "https://www.udacity.com/course/intro-to-html-and-css--ud001",
+    title: "Certified Kubernetes Administrator ",
+    cardImage: "assets/images/education-page/kub.jpg",
+    moocLink: "https://www.udemy.com/share/101WlG3@iOmubBC10A0zEwRcfNyxd7g-YtgWSngvJOQoMt78CYzPFU17AHZ6jDo_rqTIumcE/",
   },
   {
-    title: "Introduction to CSS 3",
-    cardImage: "assets/images/education-page/udacity.svg",
-    moocLink: "https://www.udacity.com/course/intro-to-html-and-css--ud001",
+    title: "CompTIA Security+",
+    cardImage: "assets/images/education-page/sec+.jpg",
+    moocLink: "https://www.udemy.com/share/101WlG3@iOmubBC10A0zEwRcfNyxd7g-YtgWSngvJOQoMt78CYzPFU17AHZ6jDo_rqTIumcE/",
   },
   {
-    title: "Javascript",
-    cardImage: "assets/images/education-page/udacity.svg",
-    moocLink: "https://www.udacity.com/course/intro-to-javascript--ud803",
+    title: "CompTIA Network+",
+    cardImage: "assets/images/education-page/net+.jpg",
+    moocLink: "https://www.udemy.com/share/101WlG3@iOmubBC10A0zEwRcfNyxd7g-YtgWSngvJOQoMt78CYzPFU17AHZ6jDo_rqTIumcE/",
   },
   {
-    title: "Bootstrap 4",
-    cardImage: "assets/images/education-page/udemy.svg",
-    moocLink: "https://www.udemy.com/course/bootstrap-4-tutorials/",
+    title: "The Complete Web Development Bootcamp",
+    cardImage: "assets/images/education-page/webdev.jpg",
+    moocLink: "https://www.udemy.com/share/101WlG3@iOmubBC10A0zEwRcfNyxd7g-YtgWSngvJOQoMt78CYzPFU17AHZ6jDo_rqTIumcE/",
   },
   {
-    title: "Intro to React",
-    cardImage: "assets/images/education-page/edx.svg",
-    moocLink: "https://www.edx.org/learn/reactjs",
+    title: "The Complete JavaScript Course",
+    cardImage: "assets/images/education-page/js.jpg",
+    moocLink: "https://www.udemy.com/share/101WlG3@iOmubBC10A0zEwRcfNyxd7g-YtgWSngvJOQoMt78CYzPFU17AHZ6jDo_rqTIumcE/",
   },
   {
-    title: "Intro to React Native",
-    cardImage: "assets/images/education-page/coursera2.svg",
-    moocLink:
-      "https://www.coursera.org/lecture/react-native/introduction-to-react-native-Eax0D",
+    title: "The Complete Object Oriented PHP Developer Course",
+    cardImage: "assets/images/education-page/php.jpg",
+    moocLink: "https://www.udemy.com/share/101WlG3@iOmubBC10A0zEwRcfNyxd7g-YtgWSngvJOQoMt78CYzPFU17AHZ6jDo_rqTIumcE/",
   },
   {
-    title: "NodeJS, Express and MongoDB",
-    cardImage: "assets/images/education-page/coursera2.svg",
-    moocLink: "https://www.coursera.org/learn/server-side-nodejs",
+    title: "Complete Python Bootcamp",
+    cardImage: "assets/images/education-page/python.jpg",
+    moocLink: "https://www.udemy.com/share/101WlG3@iOmubBC10A0zEwRcfNyxd7g-YtgWSngvJOQoMt78CYzPFU17AHZ6jDo_rqTIumcE/",
   },
-  {
-    title: "XML-AJAX",
-    cardImage: "assets/images/education-page/udemy.svg",
-    moocLink: "https://www.udemy.com/course/xml-from-beginner-to-expert/",
-  },
-  {
-    title: "Data Structures & Algorithms",
-    cardImage: "assets/images/education-page/udacity.svg",
-    moocLink:
-      "https://www.udacity.com/course/data-structures-and-algorithms-nanodegree--nd256",
-  },
+
 ];
 
 const experience = [
@@ -138,17 +127,17 @@ document.addEventListener("DOMContentLoaded", showCards);
 const bagdes = document.querySelector(".badges");
 const badgesection = [
   {
-    title: "Google Developer Essentials",
+    title: "",
     image: "assets/images/education-page/badge1.png",
     description: "Earned May 20, 2020",
   },
   {
-    title: "VM Migration",
+    title: "",
     image: "assets/images/education-page/badge2.png",
     description: "Earned June 20, 2020",
   },
   {
-    title: "G Suite Essentials",
+    title: "",
     image: "assets/images/education-page/badge3.png",
     description: "Earned July 20, 2020",
   },
