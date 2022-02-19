@@ -83,12 +83,23 @@ document.addEventListener("DOMContentLoaded", showCards2);
 const volunteership = document.querySelector(".volunteership");
 const volunteershipcards = [
   {
-    title: "GirlScript Summer Of Code 2020",
-    cardImage: "assets/images/experience-page/1.jpg",
+    title: "KCS v6 Fundamentals",
+    cardImage: "https://www.thekcsacademy.net/secure/KCS_v6_Fundamentals_Logos/KCSv6Fundamentals_600x600.png",
     description:
-      "Responsible for handling the projects GirlScript App and GirlScript Website Boilerplate.",
+      "Knowledge-Centered Service (KCS) integrates knowledge capture, reuse, and improvement into your problem-solving process",
   },
-
+  {
+    title: "Exasol Certified Associate",
+    cardImage: "https://media-exp1.licdn.com/dms/image/C560BAQGTimHmIXlOdg/company-logo_200_200/0/1519862678627?e=1653523200&v=beta&t=lqtYdB4XgoA2EpTzCiwjbwCHAP6wnWP3EZj7GXLPcTA",
+    description:
+      "The fastest analytics database. We redefine how you work with data.",
+  },
+  {
+    title: "Yellowfin Professional Analyst",
+    cardImage: "https://cc.sj-cdn.net/certificate/g8zw8xdp21rw/certificate-mdwb3b7ys7uq-1627405084.jpg?Expires=1645308604&Signature=Mgfq1wNKuyGUQnHNkDXLgP3SXKRZeSrDqm5EubaW7ugs0RCib-Plu3SBjroSqm86t-0zT5b4Xo-CnfD1Jzs78CAFZAHad4Co2HMngPVJlTyg5ZopLP8pPfPY9waerDamXG1mJshv81rTPhYy~ZdZnwPFS3LAa2lt2Pr9LH9yLcLfpwQN-yod8iE3UfzYlYHJP82qJWERcWRYXbgrhnTFez~~jHCdYceTYQt4qdelGy0ukrjzcqjkcaxz20whyeV4Hw5dnLKyi7KcTMy91m7m-XIJtpnJmBBpIa2tQDwINZ0Elg-irzGVwEuHQv2aZTEm~1ixYng2BVdWW05T37J6Sg__&Key-Pair-Id=APKAI3B7HFD2VYJQK4MQ",
+    description:
+      "Analytics made beautifully simple.",
+  },
 ];
 
 const showCards = () => {
