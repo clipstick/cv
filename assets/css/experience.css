@@ -195,7 +195,8 @@ ul ol {
   border-top-left-radius: 13px;
   border-top-right-radius: 13px;
   width: 100%;
-  height: 300px;
+  height: 100%;
+  margin: 1rem;
 }
 
 @media only screen and (min-width: 1280px) {
@@ -219,7 +220,7 @@ ul ol {
     border-bottom-left-radius: 13px;
     border-top-right-radius: 0;
     max-width: 300px;
-    height: inherit;
+    height: 100%;
     width: 100%;
   }
 }
@@ -232,14 +233,14 @@ ul ol {
 
 @media only screen and (max-width: 767px) {
   .card1 .featured-image {
-    height: 400px;
+    height: 100%;
     width: 100%;
   }
 }
 
 @media only screen and (max-width: 401px) {
   .card1 .featured-image {
-    height: 300px;
+    height: 100%;
   }
 }
 
@@ -293,7 +294,7 @@ ul ol {
 .main1 ul {
   display: block;
   margin: 0 auto;
-  min-height: 15rem;
+  min-height: 8rem;
   max-width: 1050px;
   padding: 1rem !important;
 }
